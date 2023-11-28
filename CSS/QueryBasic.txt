@@ -1,0 +1,27 @@
+React Query ek library hai jo React applications mein remote aur local state ko manage, cache, aur update karne ke liye banayi gayi hai.
+Iska uddeshya data fetching, caching, aur state management ko ek declarative aur efficient tareeke se karne mein madad karna hai.\
+React Query aam taur par asynchronous operations jaise ki API se data fetch karna ke liye istemal hoti hai.
+
+React Query ke kuch mukhya features hain:
+
+1) Declarative Data Fetching: React Query aapko hooks ka istemal karke data fetch aur manage karne mein madad karta hai. 
+   Isme useQuery hook hota hai jo data fetch karne ke liye hota hai, aur useMutation hook hota hai jo mutations ko handle karne mein madad karta hai.
+
+2) Automatic Caching: React Query mein built-in caching mechanisms hote hain jo aapko data ko local cache mein rakhne mein madad karte hain, 
+  jisse anavashyak network requests ki zarurat kam hoti hai. Isme manual cache management ke liye tools bhi hote hain.
+
+3) Optimistic Updates: Ye library optimistic updates ko support karti hai, jisse aap UI ko optimistically update kar sakte hain server ke response ke intezaar kiye bina. 
+   Isse ek behtar user experience milta hai.
+
+4) Pagination aur Infinite Loading: React Query mein paginated data aur infinite scrolling ke sath kaam karne ke liye features hote hain,
+  jisse bade data sets ke saath kaam karna aasan ho jata hai.
+
+5) Concurrency Control: Isme queries aur mutations ki concurrency ko control karne ke liye features hote hain, jisse ensure hota hai ki sirf latest requests hi process ho.
+
+6) Background Data Fetching: React Query background mein data fetch karne ki suvidha deti hai, jisse ye ensure hota hai ki aapki application responsive rahe, 
+   chahe aap large amount of data fetch kar rahe hon.
+
+7) React DevTools Integration: React Query React DevTools extension ke saath integrate hoti hai, jisse queries aur mutations ke state ko inspect aur debug karne ke liye ek dedicated panel milta hai.
+
+Note :- Samanya roop se kaha jaye to, React Query React applications mein complex data fetching aur state management scenarios ko sambhalne mein madad karta hai,
+aur ye asynchronous operations ko handle karne ke liye ek shaktishali aur flexible solution pradan karta hai.
